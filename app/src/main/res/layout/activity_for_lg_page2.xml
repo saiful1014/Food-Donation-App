@@ -17,12 +17,14 @@
         android:text="SIGN-IN"
         android:textColor="@color/white"
         android:textSize="30dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_weight=".5"/>
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="10dp"
+        android:layout_margin="0dp"
         android:layout_weight="1"
         android:gravity="center"
         android:orientation="horizontal">
@@ -35,7 +37,7 @@
             android:gravity="center"
             android:hint="FIRST NAME"
             android:padding="15dp"
-            android:textColor="#3B6759"
+            android:textColor="#E9EAEA"
             android:textSize="20sp"
             android:textStyle="normal"
 
@@ -73,10 +75,12 @@
             android:gravity="center"
             android:textSize="20sp"
             android:textColor="@color/black"
+            android:id="@+id/email"
             />
 
         <EditText
             android:padding="15dp"
+            android:id="@+id/phone_number"
             android:textColorHint="@color/white"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
@@ -88,6 +92,7 @@
             />
         <EditText
             android:padding="15dp"
+            android:id="@+id/birthday"
             android:textColorHint="@color/white"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
@@ -99,6 +104,7 @@
             />
         <EditText
             android:padding="15dp"
+            android:id="@+id/epass"
             android:textColorHint="@color/white"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
@@ -110,6 +116,7 @@
             />
         <EditText
             android:padding="15dp"
+            android:id="@+id/cpass"
             android:textColorHint="@color/white"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
@@ -118,6 +125,17 @@
             android:gravity="center"
             android:textSize="20sp"
             android:textColor="@color/black"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:gravity="center"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/signup"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
             />
 
     </LinearLayout>

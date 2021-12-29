@@ -10,32 +10,65 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WelcomeScreen">
         <activity
-            android:name="com.example.DONATION_APP.ForLogInActivity"
+            android:name=".ThankYou"
+            android:exported="false" />
+        <activity
+            android:name=".activities"
+            android:exported="false" />
+        <activity
+            android:name=".donateextra"
+            android:exported="false" />
+        <activity
+            android:name=".donatebook"
+            android:exported="false" />
+        <activity
+            android:name=".volunteer"
+            android:exported="false" />
+        <activity
+            android:name=".fooditem"
+            android:exported="false" />
+        <activity
+            android:name=".donatecloth"
+            android:exported="false" />
+        <activity
+            android:name=".donatefood"
+            android:exported="false" />
+        <activity
+            android:name=".donate_elements"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ForLogInActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.DONATION_APP.ForLgPage"
+            android:name=".ForLgPage"
             android:exported="true" />
         <activity
             android:name=".ui.login.ForLgPage"
             android:exported="true"
             android:label="@string/title_activity_for_lg_page" />
         <activity
-            android:name="com.example.DONATION_APP.SignForV"
+            android:name=".SignForV"
             android:exported="true" />
         <activity
-            android:name="com.example.DONATION_APP.ForSignOrLogIn"
+            android:name=".ForSignOrLogIn"
             android:exported="true" />
         <activity
-            android:name="com.example.DONATION_APP.ForAboutUs"
+            android:name=".ForAboutUs"
             android:exported="true" />
         <activity
-            android:name="com.example.DONATION_APP.ForFeedback"
+            android:name=".ForFeedback"
             android:exported="true" />
         <activity
-            android:name="com.example.DONATION_APP.MainActivity"
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.DONATION_APP.SlashScreen"
+            android:name=".SlashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

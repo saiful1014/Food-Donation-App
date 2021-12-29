@@ -3,6 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_activities.xml" value="0.24615384615384617" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_donate_elements.xml" value="0.1" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_donatebook.xml" value="0.24615384615384617" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_donatecloth.xml" value="0.2359375" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_donateextra.xml" value="0.264" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_donatefood.xml" value="0.2" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_fooditem.xml" value="0.24615384615384617" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_for_lg_page2.xml" value="0.264" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_for_log_in.xml" value="0.25" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_for_sign_or_log_in.xml" value="0.25" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_sign_for_v.xml" value="0.25" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_user_profile.xml" value="0.1" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_volunteer.xml" value="0.2359375" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/menu/menu_item.xml" value="0.25" />
+        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/menu/profile.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2484375" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/drawable/gradient_home.xml" value="0.2484375" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2484375" />

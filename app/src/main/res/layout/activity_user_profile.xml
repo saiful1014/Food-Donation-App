@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    android:background="#989153">
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="WELCOME BACK"
+            android:textColor="#11258C"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:foregroundGravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/page_clearence"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+
+                    />
+
+        </ScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|bottom"
+            android:layout_margin="5dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="@string/option"
+            android:textColor="#B80630"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_gravity="center|bottom"
+            android:background="#836E5B"
+            android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/FOOD"
+                    android:layout_width="279dp"
+                    android:layout_height="62dp"
+                    android:layout_marginLeft="70dp"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/healthly_food"
+                    android:padding="2dp"
+                    android:text="FOOD"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <Button
+                    android:id="@+id/CLOTH"
+                    android:layout_width="279dp"
+                    android:layout_height="62dp"
+                    android:layout_marginLeft="70dp"
+                    android:backgroundTint="@color/teal_200"
+                    android:drawableLeft="@drawable/fashion"
+                    android:padding="2dp"
+                    android:text="CLOTH"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <Button
+                    android:id="@+id/BOOK"
+                    android:layout_width="279dp"
+                    android:layout_height="62dp"
+                    android:layout_marginLeft="70dp"
+                    android:backgroundTint="#A6E8A9"
+                    android:drawableLeft="@drawable/book"
+                    android:padding="2dp"
+                    android:text="BOOK"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <Button
+                    android:id="@+id/OTHER"
+                    android:layout_width="279dp"
+                    android:layout_height="62dp"
+                    android:layout_marginLeft="70dp"
+                    android:backgroundTint="#807676"
+                    android:drawableLeft="@drawable/file"
+                    android:padding="2dp"
+                    android:text="OTHERS"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/TopAC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#813A3A"
+            android:text="Recent Activities"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+</LinearLayout>

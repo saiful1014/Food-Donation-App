@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3472BD"
+    android:orientation="vertical"
+    tools:context=".donatefood">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="FOOD"
+        android:textColor="#F3092B"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.25">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="DATE :"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/donationDateforFoodTxt"
+                android:layout_width="172dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:hint="donation_date"
+                android:textColor="#EA1616"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/donationDateforFoodBtn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:backgroundTint="#323131"
+                android:text="Select Date"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.25">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="START TIME:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/firstTimeToPicforFoodTxt"
+                android:layout_width="173dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:hint="First time to pick"
+                android:textColor="#EA1616"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/firstTimeToPickforFoodBtn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:backgroundTint="#323131"
+                android:text="Select Time"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="END TIME"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lastTimeToPickforFoodTxt"
+                android:layout_width="173dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:hint="Last time to pick"
+                android:textColor="#EA1616"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/lastTimeToPickforFoodBtn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#323131"
+                android:text="Select_time"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.25">
+
+            <TextView
+
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="GIVE IDENTITY ?"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/yesforFoodBtn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:backgroundTint="#1064F6"
+                android:text="YES"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/noforFoodBtn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:backgroundTint="#D60D0D"
+                android:text="NO"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Comment :"
+            android:textColor="#131213"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_margin="2dp"
+            android:id="@+id/commentforFoodEdTxt"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/DonteFoodBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="DONATE"
+            android:layout_marginLeft="150dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

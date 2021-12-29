@@ -22,4 +22,11 @@ How to Write an About Us Page</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="option">WHAT DO YOU WANT TO DONATE ?</string>
+
+    <string name="page_clearence">Here you can choose what you want to donate .We have defined 3 specific options(FOOD,CLOTH,BOOK).And we also added an option as other , here you can add anything if you want to donate anything outof these option .
+If you want to hide your identity our volenteer will keep it secret .We have took some of your informations to varify you and your data will keep secret.You also can see some previous activities frome the bottom most option .
+And again thank for your donation .</string>
+    <string name="thank_you">THANK YOU \n \t\t\t\t\t\ FOR \n YOUR DONATION</string>
+    <string name="what_to_donate">WHAT TO DONATE !</string>
 </resources>

@@ -21,17 +21,20 @@
 
     <EditText
         android:padding="10dp"
+        android:id="@+id/lg.ph"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="ENTER NAME OR EMAIL"
+        android:hint="ENTER PHONE NUMBER"
         android:textColorHint="@color/white"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:layout_margin="20dp"
         />
 
     <EditText
         android:padding="10dp"
+        android:id="@+id/lg.ps"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,11 +42,13 @@
         android:textColorHint="@color/white"
         android:textSize="20sp"
         android:layout_margin="20dp"
+        android:textColor="@color/white"
         />
 
 
     <Button
         android:backgroundTint="#121111"
+        android:id="@+id/lgbu"
         android:textSize="15sp"
         android:padding="10dp"
         android:gravity="center"

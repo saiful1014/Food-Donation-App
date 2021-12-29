@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="My Profile"
+        android:id="@+id/mp"/>
+    <item
+        android:title="logout"
+        android:id="@+id/mlo"
+
+        />
+    <item
+        android:title="Donate"
+        android:id="@+id/md"
+        />
+
+
+</menu>
