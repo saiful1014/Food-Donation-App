@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donate_elements"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="30dp"
+    android:background="#32AEE6"
+    >
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What kind of things do you want to donate?"
+        android:textSize="20sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="FOOD"
+        android:id="@+id/food"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/purple_700"
+        android:onClick="foodclick"
+
+        />
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Cloths"
+        android:id="@+id/cloths"
+        android:backgroundTint="@color/purple_700"
+        android:onClick="clothclick"
+        />
+
+
+
+</LinearLayout>

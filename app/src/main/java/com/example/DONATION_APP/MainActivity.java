@@ -61,10 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           Intent intent=new Intent(this,ForAboutUs.class);
           startActivity(intent);
         }
-        else if (item.getItemId()==R.id.settingId)
-        {
 
-        }
       else if(item.getItemId()==R.id.feedbackId)
         {
             Intent intent=new Intent(this,ForFeedback.class);

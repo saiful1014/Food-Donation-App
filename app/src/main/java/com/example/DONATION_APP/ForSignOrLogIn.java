@@ -14,7 +14,7 @@ public class ForSignOrLogIn extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("SIGN_IN OR LOG_IN");
+        setTitle("SIGN_UP OR LOG_IN");
         setContentView(R.layout.activity_for_sign_or_log_in);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
