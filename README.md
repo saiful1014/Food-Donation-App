@@ -17,6 +17,58 @@ SL | Learning Task | Description | Status | Comment |
 4|Google Maps|Location,zoom control|![](https://img.shields.io/badge/location-June%2020-critical)|Both|
 5|Database|Firebase|![](https://img.shields.io/badge/Firebase-June%2030-critical)|2018331014|
 
+# Acknowledgement
+------------------
+1. Thanks to Arif Shahriar for help in Database management system.
+2. Special thanks to stack overfloww and youtube videos.
+
+
+
+Features-
+==============
+0-Registration And Authentication
+----------------------------------
+ All donator and volunteer should be registrated and varified by admin
+
+1-Donator Descriptions
+--------------------------
+ Donar should describe his/her address and requried information
+
+2-Donation Description
+--------------------------
+ What is going to donate and from where volunteer should pick the donation
+
+3-Previous major Donation overview
+---------------------------------------
+ What kind of activites have done earlier and whom are benifited by those activites (Unimplemented)
+
+
+
+Developers-
+==============
+1-MD. Saiful Islam
+-------------------
+ - reg-2018331014
+ - phone-01735208731
+ - email- si0173520@gmail.com
+ 
+2-Shafaet Ullah
+------------------
+ - reg-2018331032
+ - phone-01784314735
+ - email- shafetullah02@gmail.com
+
+
+# Contributions
+----------------
+1. Shafaet Ullah (2018331032) ==> Front-end like xml and coding in Java
+2. Md.Saiful Islam(2018331014) ==> Handling Firebase
+
+
+## Technologies
+----------------
+We have used Java and XML for Front-end, Java for Back-end and Firebase for Database.
+
 Features-
 ==============
 0-Registration And Authentication
@@ -34,16 +86,6 @@ Features-
 3-Previous major Donation overview
 ---------------------------------------
  What kind of activites have done earlier and whom are benifited by those activites
-
-
-
-
-Developers-
-==============
-1-MD. Saiful Islam
--------------------
- reg-2018331014
  
-2-Shafaet Ullah
-------------------
- reg-2018331032
+ <small>&copy; 2021 - Dept. of CSE, SUST, BD</small>
+ 
