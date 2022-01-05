@@ -1,16 +1,19 @@
-package com.example.DONATION_APP;
+package com.example.DONATION_APP.volunteer;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.DONATION_APP.R;
+import com.example.DONATION_APP.data.FetchData;
+import com.example.DONATION_APP.volunteer.volunteer;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -18,10 +21,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.ArrayList;
+
 public class SignForV extends AppCompatActivity implements View.OnClickListener {
 
     private EditText e1, e2;
     private Button b1, b2;
+    public ArrayList<FetchData> fd=new ArrayList<>();
+    public int r;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,19 +82,8 @@ public class SignForV extends AppCompatActivity implements View.OnClickListener 
                     if (passwordFromDB.equals(userEnteredPassword)) {
                         e1.setError(null);
 
-                       /* String nameFromDB = snapshot.child(userEnteredUsername).child("firstname").getValue(String.class);
-                        String usernameFromDB = snapshot.child(userEnteredUsername).child("lastname").getValue(String.class);
-                        String phoneNoFromDB = snapshot.child(userEnteredUsername).child("phone").getValue(String.class);
-                        String emailFromDB = snapshot.child(userEnteredUsername).child("email").getValue(String.class);
-                        Intent intent = new Intent(getApplicationContext(), UserProfile.class);
-                        intent.putExtra("firstname", nameFromDB);
-                        intent.putExtra("lastname", usernameFromDB);
-                        intent.putExtra("email", emailFromDB);
-                        intent.putExtra("phone", phoneNoFromDB);
-                        intent.putExtra("pass", passwordFromDB);
-                        startActivity(intent);
-                        */
-                        Intent i=new Intent(getApplicationContext(),volunteer.class);
+
+                        Intent i=new Intent(getApplicationContext(), volunteer.class);
                         startActivity(i);
 
                     } else {

@@ -1,7 +1,16 @@
 package com.example.DONATION_APP.data;
 
 public class bookprofile {
-    String  ammount,start,end,identity,comment;
+    String  ammount,start,end,identity,comment,phone;
+
+    public bookprofile(String ammount, String start, String end, String identity, String comment, String phone) {
+        this.ammount = ammount;
+        this.start = start;
+        this.end = end;
+        this.identity = identity;
+        this.comment = comment;
+        this.phone = phone;
+    }
 
     public String getAmmount() {
         return ammount;
@@ -43,11 +52,11 @@ public class bookprofile {
         this.comment = comment;
     }
 
-    public bookprofile(String ammount, String start, String end, String identity, String comment) {
-        this.ammount = ammount;
-        this.start = start;
-        this.end = end;
-        this.identity = identity;
-        this.comment = comment;
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }

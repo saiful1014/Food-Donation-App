@@ -4,141 +4,318 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/doooner"
+    android:background="@drawable/fdback"
     android:orientation="vertical"
-    android:weightSum="5"
+    android:weightSum="6"
     tools:context=".ForLgPage">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:gravity="center"
-        android:text="SIGN-IN"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:layout_weight=".5"/>
-
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="0dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:layout_weight="1">
 
-        <EditText
-            android:textColorHint="@color/white"
-            android:id="@+id/firstNameId"
-            android:layout_width="200dp"
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:hint="FIRST NAME"
-            android:padding="15dp"
-            android:textColor="#E9EAEA"
-            android:textSize="20sp"
-            android:textStyle="normal"
+            android:text="SIGN-UP"
+            android:textColor="#142AED"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
-            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_weight=".5">
+            <TextView
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="NAME :"
+                />
+            <EditText
+                android:textColorHint="@color/white"
+                android:id="@+id/firstNameId"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="first name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:layout_margin="4dp"
 
-        <EditText
-            android:id="@+id/lastNameId"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColorHint="@color/white"
-            android:hint="LAST NAME"
-            android:padding="15dp"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="normal"
+                />
 
-            />
+            <EditText
+                android:id="@+id/lastNameId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColorHint="@color/white"
+                android:hint="last name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:layout_margin="4dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            >
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Email :"
+                />
+            <EditText
+                android:textColorHint="@color/white"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="ENTER YOUR EMAIL"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:id="@+id/email"
+
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            >
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Phone :"
+                />
+            <EditText
+                android:id="@+id/phone_number"
+                android:textColorHint="@color/white"
+                android:layout_width="270dp"
+                android:layout_height="match_parent"
+                android:hint="ENTER YOUR PHONE NUMBER"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+
+
+        </LinearLayout>
+
+
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_weight="3.5"
         android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        android:layout_height="0dp">
-        <EditText
-            android:padding="15dp"
-            android:textColorHint="@color/white"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="ENTER YOUR EMAIL"
-            android:gravity="center"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:id="@+id/email"
-            />
+        android:layout_weight="1">
 
-        <EditText
-            android:padding="15dp"
-            android:id="@+id/phone_number"
-            android:textColorHint="@color/white"
-            android:layout_marginTop="20dp"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="ENTER YOUR PHONE NUMBER"
-            android:gravity="center"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            />
-        <EditText
-            android:padding="15dp"
-            android:id="@+id/birthday"
-            android:textColorHint="@color/white"
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="ENTER YOUR BIRTH_ID"
-            android:gravity="center"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            />
-        <EditText
-            android:padding="15dp"
-            android:id="@+id/epass"
-            android:textColorHint="@color/white"
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="ENTER YOUR PASSWORD"
-            android:gravity="center"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            />
-        <EditText
-            android:padding="15dp"
-            android:id="@+id/cpass"
-            android:textColorHint="@color/white"
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="CONFIRM PASSWORD"
-            android:gravity="center"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sign Up"
-            android:gravity="center"
-            android:layout_marginLeft="150dp"
-            android:id="@+id/signup"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight=".5">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="BirthID :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+            <EditText
+                android:layout_marginLeft="15dp"
+                android:id="@+id/birthday"
+                android:inputType="number"
+                android:textColorHint="@color/white"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:hint="enter your birth id"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="ADDRESS :"
+            android:textColor="#FFC107"
+            android:gravity="center_vertical"
             android:textStyle="bold"
-            android:textSize="20sp"
-
+            android:textSize="25sp"
             />
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:hint="ADDRESS"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5">
+
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="PassWord"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_margin="4dp"
+                />
+
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/epass"
+                android:textColorHint="@color/white"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:hint="PASSWORD"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight=".5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="Confirm Pass"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_margin="4dp"
+                    />
+
+                <EditText
+                    android:inputType="textPassword"
+                    android:id="@+id/cpass"
+                    android:textColorHint="@color/white"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:hint="CONFIRM PASSWORD"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/white"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:weightSum="1">
+
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="SIGN"
+            android:backgroundTint="#114203"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#B8C1DA"
+
+            />
+
+
+
+    </LinearLayout>
 
 </LinearLayout>

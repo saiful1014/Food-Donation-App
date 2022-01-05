@@ -1,7 +1,17 @@
 package com.example.DONATION_APP.data;
 
 public class foodprofile {
-    String date,Firsttime,Lasttime,Identity,comment;
+    String date,Firsttime,Lasttime,Identity,comment,phone,key;
+
+    public foodprofile(String date, String firsttime, String lasttime, String identity, String comment, String phone, String key) {
+        this.date = date;
+        Firsttime = firsttime;
+        Lasttime = lasttime;
+        Identity = identity;
+        this.comment = comment;
+        this.phone = phone;
+        this.key = key;
+    }
 
     public String getDate() {
         return date;
@@ -43,11 +53,19 @@ public class foodprofile {
         this.comment = comment;
     }
 
-    public foodprofile(String date, String firsttime, String lasttime, String identity, String comment) {
-        this.date = date;
-        Firsttime = firsttime;
-        Lasttime = lasttime;
-        Identity = identity;
-        this.comment = comment;
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
     }
 }

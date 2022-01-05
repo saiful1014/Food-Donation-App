@@ -16,7 +16,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.DONATION_APP.UserProfile.UserProfile;
+import com.example.DONATION_APP.UserProfile.profile;
 import com.example.DONATION_APP.data.bookprofile;
+import com.example.DONATION_APP.fragment.ThankYou;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -26,7 +29,7 @@ public class donatebook extends AppCompatActivity implements View.OnClickListene
     private EditText BookCommentEdTxt, BookAmountEdTxt;
     private int Flag;
     private DatePickerDialog datePickerDialog;
-    String identity,comment;
+   private String identity="No",comment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +72,7 @@ public class donatebook extends AppCompatActivity implements View.OnClickListene
         if(item.getItemId()==R.id.mp)
         {
             Intent p=getIntent();
-            Intent i=new Intent(this,profile.class);
+            Intent i=new Intent(this, profile.class);
             i.putExtra("firstname",p.getStringExtra("firstname"));
             i.putExtra("lastname",p.getStringExtra("lastname"));
             i.putExtra("email",p.getStringExtra("email"));
@@ -88,7 +91,7 @@ public class donatebook extends AppCompatActivity implements View.OnClickListene
         }
         else if(item.getItemId()==R.id.md)
         {
-            Intent i=new Intent(this,UserProfile.class);
+            Intent i=new Intent(this, UserProfile.class);
             Intent p=getIntent();
             i.putExtra("phone",p.getStringExtra("phone"));
             startActivity(i);
@@ -161,11 +164,12 @@ public class donatebook extends AppCompatActivity implements View.OnClickListene
             if (flag1.length()==0||flag2.length()==0||BookAmount.length()==0) {
                 Toast.makeText(getApplicationContext(), "PLEASE GIVE ALL INFORMATION", Toast.LENGTH_LONG).show();
             } else {
-                bookprofile fp=new bookprofile(BookAmount,flag1,flag2,identity,comment);
-                DatabaseReference ref= FirebaseDatabase.getInstance().getReference("Book");
                 Intent p=getIntent();
                 String user= p.getStringExtra("phone");
-                ref.child(user).push().setValue(fp);
+                bookprofile fp=new bookprofile(BookAmount,flag1,flag2,identity,comment,user);
+                DatabaseReference ref= FirebaseDatabase.getInstance().getReference("Book");
+
+                ref.child(user).setValue(fp);
                 Toast.makeText(getApplicationContext(), "Allhamdulillah", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(this, ThankYou.class);
                 startActivity(intent);

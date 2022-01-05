@@ -3,36 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_activities.xml" value="0.24615384615384617" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_donate_elements.xml" value="0.1" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_donatebook.xml" value="0.24615384615384617" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_donatecloth.xml" value="0.2359375" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_donateextra.xml" value="0.264" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_donatefood.xml" value="0.2" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_fooditem.xml" value="0.24615384615384617" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_for_lg_page2.xml" value="0.264" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_for_log_in.xml" value="0.25" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_for_sign_or_log_in.xml" value="0.25" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_profile.xml" value="0.25" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_sign_for_v.xml" value="0.25" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_user_profile.xml" value="0.1" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/layout/activity_volunteer.xml" value="0.2359375" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/menu/menu_item.xml" value="0.25" />
-        <entry key="..\:/Arif/G29-Donation-App/app/src/main/res/menu/profile.xml" value="0.25" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2484375" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/drawable/gradient_home.xml" value="0.2484375" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2484375" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/layout/activity_for_about_us.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/layout/activity_for_feedback.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/layout/activity_for_lg_page.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/layout/activity_for_lg_page2.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/layout/activity_for_log_in.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/layout/activity_for_sign_or_log_in.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/layout/activity_main.xml" value="0.21822916666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/layout/activity_sign_for_v.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/layout/activity_slash_screen.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/welcomeScreen/app/src/main/res/menu/menu_item.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_activities.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_donar_list_view.xml" value="0.21458333333333332" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_donate_elements.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_donatebook.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_donatecloth.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_donateextra.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_donatefood.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_fooditem.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_for_about_us.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_for_feedback.xml" value="0.22864583333333333" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_for_lg_page2.xml" value="0.22864583333333333" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_for_log_in.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_for_sign_or_log_in.xml" value="0.22864583333333333" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_profile.xml" value="0.22864583333333333" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_sign_for_v.xml" value="0.22864583333333333" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_slash_screen.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_thank_you.xml" value="0.22864583333333333" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_user_profile.xml" value="0.22864583333333333" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_volunteer.xml" value="0.22864583333333333" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_volunteer_acception.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/activity_volunteer_book.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/fragment_book.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/fragment_cloth.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/fragment_demo.xml" value="0.21458333333333332" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/fragment_food.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/fragment_other.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/simple_book_demo.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/simple_food_demo.xml" value="0.23229166666666667" />
+        <entry key="..\:/SOFTWARE/G29-Donation-App (1)/G29-Donation-App/app/src/main/res/layout/simple_layout_listview.xml" value="0.11041666666666666" />
       </map>
     </option>
   </component>
@@ -41,12 +41,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.21822916666666667" />
-      </ProjectState>
-    </option>
   </component>
 </project>

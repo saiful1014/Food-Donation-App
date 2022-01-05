@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home"
+    android:background="@color/black"
     android:orientation="vertical"
     android:gravity="center|top"
     tools:context=".MainActivity">
@@ -32,13 +32,15 @@
         android:layout_marginBottom="30dp"
         />
 
+
     <ImageView
+        android:id="@+id/DonerImg"
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:src="@drawable/dooner" />
 
     <Button
-        android:backgroundTint="#1C2727"
+        android:backgroundTint="@color/black"
         android:id="@+id/donerId"
         android:layout_width="300dp"
         android:layout_height="45dp"
@@ -48,11 +50,12 @@
         android:layout_marginBottom="20dp"
         />
     <ImageView
+        android:id="@+id/volunteerImg"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:src="@drawable/voolunteer" />
     <Button
-        android:backgroundTint="#1C2727"
+        android:backgroundTint="@color/black"
         android:id="@+id/volunteerId"
         android:layout_width="300dp"
         android:layout_height="45dp"

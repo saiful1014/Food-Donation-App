@@ -18,9 +18,18 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.example.DONATION_APP.UserProfile.UserProfile;
+import com.example.DONATION_APP.UserProfile.profile;
 import com.example.DONATION_APP.data.foodprofile;
+import com.example.DONATION_APP.fragment.ThankYou;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class donatefood extends AppCompatActivity implements View.OnClickListener {
     private Button foodDate,foodFirstTime,foodLastTime,foodDonation,foodYes,foodNo,foodComment;
@@ -32,6 +41,18 @@ public class donatefood extends AppCompatActivity implements View.OnClickListene
     private DatePickerDialog datePickerDialog;
     private TimePickerDialog timePickerDialog;
 
+
+
+    /*//Doc
+
+    private String[] fooddate,foodstime,foodetime;
+    DataInter dataInter=new DataInter();
+
+
+
+
+    //Doc
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,7 +90,7 @@ public class donatefood extends AppCompatActivity implements View.OnClickListene
         if(item.getItemId()==R.id.mp)
         {
             Intent p=getIntent();
-            Intent i=new Intent(this,profile.class);
+            Intent i=new Intent(this, profile.class);
             i.putExtra("firstname",p.getStringExtra("firstname"));
             i.putExtra("lastname",p.getStringExtra("lastname"));
             i.putExtra("email",p.getStringExtra("email"));
@@ -88,7 +109,7 @@ public class donatefood extends AppCompatActivity implements View.OnClickListene
         }
         else if(item.getItemId()==R.id.md)
         {
-            Intent i=new Intent(this,UserProfile.class);
+            Intent i=new Intent(this, UserProfile.class);
             Intent p=getIntent();
             i.putExtra("phone",p.getStringExtra("phone"));
             startActivity(i);
@@ -181,22 +202,46 @@ public class donatefood extends AppCompatActivity implements View.OnClickListene
                  first=foodFirstTimeTxt.getText().toString();
                  last=foodLastTimeTxt.getText().toString();
                  com=foodCommentEdTxt.getText().toString();
+
+                 //dataInter.data212Inter(date,first,last);
+
                  if(date.length()==0|| first.length()==0||last.length()==0||identity.length()==0)
                  {
                      Toast.makeText(getApplicationContext(),"PLEASE GIVE ALL INFORMATION",Toast.LENGTH_LONG).show();
                  }
                  else
                  {
-                     foodprofile  fp=new foodprofile(date,first,last,identity,com);
-                     DatabaseReference ref= FirebaseDatabase.getInstance().getReference("Food");
+                     Calendar calendar = Calendar.getInstance();
+                     SimpleDateFormat currentDateFormat = new SimpleDateFormat("MMM dd, yyyy");
+                   String  currentDate = currentDateFormat.format(calendar.getTime());
+
+                     Calendar calendarForTime = Calendar.getInstance();
+                     SimpleDateFormat currentTimeFormat = new SimpleDateFormat("hh:mm a");
+                    String currentTime = currentTimeFormat.format(calendarForTime.getTime());
                      Intent p=getIntent();
                      user= p.getStringExtra("phone");
-                     ref.child(user).push().setValue(fp);
+                     DatabaseReference ref= FirebaseDatabase.getInstance().getReference("Food");
+                     String key=currentTime+currentDate;
+                     foodprofile  fp=new foodprofile(date,first,last,identity,com,user,key);
+
+                     ref.child(user).setValue(fp);
+
+                     ref.addListenerForSingleValueEvent(new ValueEventListener() {
+                         @Override
+                         public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                         }
+
+                         @Override
+                         public void onCancelled(@NonNull DatabaseError error) {
+
+                         }
+                     });
 
 
 
                      Toast.makeText(getApplicationContext(),"Allhamdulillah you donate successfully",Toast.LENGTH_LONG).show();
-                     Intent intent=new Intent(this,ThankYou.class);
+                     Intent intent=new Intent(this, ThankYou.class);
                      startActivity(intent);
 
                  }
