@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserProfile"
+    tools:context=".UserProfile.UserProfile"
     android:orientation="vertical"
     android:gravity="center_horizontal"
 
@@ -124,17 +124,23 @@
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/TopAC"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="#813A3A"
-            android:text="Recent Activities"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+                <Button
+                    android:gravity="center"
+                    android:id="@+id/TopAC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#813A3A"
+                    android:text="VOLUNTEER_LIST"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+        </LinearLayout>
+
+
 
 
 

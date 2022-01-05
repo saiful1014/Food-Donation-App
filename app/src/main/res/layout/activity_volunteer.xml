@@ -4,18 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".volunteer"
-    android:gravity="center">
+    android:backgroundTint="#1D45D5"
+    android:orientation="vertical"
+    tools:context=".volunteer.volunteer">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="209dp"
-        android:layout_height="189dp"
-        android:text="Volunteer"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.599"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="258dp" />
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+
+        android:id="@+id/viewPageId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
 </LinearLayout>

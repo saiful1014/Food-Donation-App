@@ -1,4 +1,4 @@
-package com.example.DONATION_APP;
+package com.example.DONATION_APP.UserProfile;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,13 +10,16 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+import com.example.DONATION_APP.DonarListView;
+import com.example.DONATION_APP.ForSignOrLogIn;
+import com.example.DONATION_APP.MainActivity;
+import com.example.DONATION_APP.R;
+import com.example.DONATION_APP.activities;
+import com.example.DONATION_APP.donatebook;
+import com.example.DONATION_APP.donatecloth;
+import com.example.DONATION_APP.donateextra;
+import com.example.DONATION_APP.donatefood;
 
 public class UserProfile extends AppCompatActivity implements View.OnClickListener {
 
@@ -68,7 +71,7 @@ public class UserProfile extends AppCompatActivity implements View.OnClickListen
         {
 
             this.finishAndRemoveTask();
-            Intent i=new Intent(this,MainActivity.class);
+            Intent i=new Intent(this, MainActivity.class);
             startActivity(i);
         }
         else if(item.getItemId()==R.id.md)
@@ -112,12 +115,18 @@ public class UserProfile extends AppCompatActivity implements View.OnClickListen
             startActivity(intent);
 
         }
-        else if (v.getId() == R.id.TopAC) {
-            Intent intent = new Intent(this,activities.class);
-            Intent p=getIntent();
-            intent.putExtra("phone",p.getStringExtra("phone"));
+        if (v.getId() == R.id.TopAC) {
+            Intent intent = new Intent(this, DonarListView.class);
+        /*    Intent p=getIntent();
+            intent.putExtra("phone",p.getStringExtra("phone"));*/
             startActivity(intent);
         }
 
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent i=new Intent(this, ForSignOrLogIn.class);
+        startActivity(i);
     }
 }

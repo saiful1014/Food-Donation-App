@@ -12,6 +12,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
+
+import com.example.DONATION_APP.volunteer.SignForV;
 
 // MAIN PAGE
 
@@ -20,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private Button donate,volunteer;
+    private ImageView donateImg,VolImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,10 +36,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         donate=findViewById(R.id.donerId);
+        donateImg=findViewById(R.id.DonerImg);
+
         volunteer=findViewById(R.id.volunteerId);
+        VolImage=findViewById(R.id.volunteerImg);
 
         donate.setOnClickListener(this);
+        donateImg.setOnClickListener(this);
         volunteer.setOnClickListener(this);
+        VolImage.setOnClickListener(this);
 
     }
 
@@ -73,15 +82,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(@NonNull View v) {
 
-        if(v.getId()==R.id.donerId)
+        if(v.getId()==R.id.donerId||v.getId()==R.id.DonerImg)
         {
             Intent intent=new Intent(this,ForSignOrLogIn.class);
             startActivity(intent);
         }
-        else if(v.getId()==R.id.volunteerId)
+        else if(v.getId()==R.id.volunteerId||v.getId()==R.id.volunteerImg)
         {
 
-            Intent intent=new Intent(this,SignForV.class);
+            Intent intent=new Intent(this, SignForV.class);
             startActivity(intent);
         }
     }

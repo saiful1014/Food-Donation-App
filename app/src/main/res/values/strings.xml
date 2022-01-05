@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">welcomeScreen</string>
+    <string name="app_name">KANDARII</string>
     <string name="name">\tDONATION APP\n </string>
+    <string name="thankyou">Thank you for your Donation.\n\n  Here is your Donation description :- </string>
+    <string name="thankyouVol">Thank you for being helping hand.\n\n  Here is the Donation description :- </string>
+    <string name="thankyoucomment">Thank you Again.\n\n  Our all volunteer are very much  active .\n Hopefully You will donate again</string>
+
     <string name="about_us">An About Us Page is a page on your website that tells your readers all about you. \nIt includes a detailed description covering all aspects of your business and you as an entrepreneur.
         \nThis can include the products or services you are offering, how you came into being as a business, your mission and vision, your aim, and maybe something about your future goals too.
         \nYour About Us page is your perfect opportunity to tell a compelling story about your business.Even though an About Us page is one of the most important elements of a website, it is often one of the most overlooked elements.
@@ -14,19 +18,124 @@ There are 811 million hungry people in the world, but hunger is entirely solvabl
 
 How to Write an About Us Page</string>
     <string name="title_activity_for_lg_page">ForLgPage</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
     <string name="option">WHAT DO YOU WANT TO DONATE ?</string>
 
     <string name="page_clearence">Here you can choose what you want to donate .We have defined 3 specific options(FOOD,CLOTH,BOOK).And we also added an option as other , here you can add anything if you want to donate anything outof these option .
 If you want to hide your identity our volenteer will keep it secret .We have took some of your informations to varify you and your data will keep secret.You also can see some previous activities frome the bottom most option .
 And again thank for your donation .</string>
-    <string name="thank_you">THANK YOU \n \t\t\t\t\t\ FOR \n YOUR DONATION</string>
-    <string name="what_to_donate">WHAT TO DONATE !</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="bookSting1">
+        <item>6/1/22</item>
+        <item>21/12/21</item>
+        <item>22/12/21</item>
+        <item>23/12/21</item>
+        <item>24/12/21</item>
+        <item>25/12/21</item>
+        <item>26/12/21</item>
+
+    </string-array>
+
+    <string-array name="bookString2">
+        <item>10/1/22</item>
+        <item>1/2/22</item>
+        <item>3/2/22</item>
+        <item>4/3/33</item>
+        <item>11/5/22</item>
+        <item>12/7/22</item>
+        <item>12/8/22</item>
+
+    </string-array>
+
+
+    <string-array name="name_id">
+        <item>Saiful</item>
+        <item>Shafet</item>
+        <item>Santo</item>
+        <item>tufail</item>
+        <item>Radi</item>
+        <item>Rafi</item>
+        <item>Arnob</item>
+        <item>Shibu</item>
+        <item>Shohan</item>
+        <item>Mahin</item>
+        <item>Rabi</item>
+        <item>Arnob</item>
+        <item>Arif</item>
+        <item>Niloy</item>
+
+    </string-array>
+    <string-array name="phone_id">
+        <item>01784323435</item>
+        <item>01784323435</item>
+        <item>01784113435</item>
+        <item>01684323435</item>
+        <item>01784323335</item>
+        <item>01785323435</item>
+        <item>01784523435</item>
+        <item>01754323435</item>
+        <item>01784523435</item>
+        <item>01784323535</item>
+        <item>01774323435</item>
+        <item>01784723435</item>
+        <item>01784373435</item>
+        <item>01784323635</item>
+
+    </string-array>
+
+    <string-array name="birthId_id">
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+        <item>12456376546672524</item>
+
+    </string-array>
+
+    <string-array name="email_id">
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+        <item>abscd@gmail.com</item>
+
+    </string-array>
+
+    <string-array name="address_id">
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+        <item>CSE,SUST,SYLHET</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

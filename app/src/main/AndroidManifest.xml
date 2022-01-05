@@ -10,7 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WelcomeScreen">
         <activity
-            android:name=".ThankYou"
+            android:name=".DonarListView"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".account.Volunteer_Book"
+            android:exported="false" />
+        <activity
+            android:name=".volunteer.VolunteerAcception"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.ThankYou"
             android:exported="false" />
         <activity
             android:name=".activities"
@@ -22,7 +32,7 @@
             android:name=".donatebook"
             android:exported="false" />
         <activity
-            android:name=".volunteer"
+            android:name=".volunteer.volunteer"
             android:exported="false" />
         <activity
             android:name=".fooditem"
@@ -37,10 +47,10 @@
             android:name=".donate_elements"
             android:exported="false" />
         <activity
-            android:name=".profile"
+            android:name=".UserProfile.profile"
             android:exported="false" />
         <activity
-            android:name=".UserProfile"
+            android:name=".UserProfile.UserProfile"
             android:exported="false" />
         <activity
             android:name=".ForLogInActivity"
@@ -53,7 +63,7 @@
             android:exported="true"
             android:label="@string/title_activity_for_lg_page" />
         <activity
-            android:name=".SignForV"
+            android:name=".volunteer.SignForV"
             android:exported="true" />
         <activity
             android:name=".ForSignOrLogIn"

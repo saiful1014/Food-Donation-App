@@ -16,8 +16,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.DONATION_APP.UserProfile.UserProfile;
+import com.example.DONATION_APP.UserProfile.profile;
 import com.example.DONATION_APP.data.clothprofile;
-import com.example.DONATION_APP.data.foodprofile;
+import com.example.DONATION_APP.fragment.ThankYou;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -70,7 +72,7 @@ public class donatecloth extends AppCompatActivity implements View.OnClickListen
         if(item.getItemId()==R.id.mp)
         {
             Intent p=getIntent();
-            Intent i=new Intent(this,profile.class);
+            Intent i=new Intent(this, profile.class);
             i.putExtra("firstname",p.getStringExtra("firstname"));
             i.putExtra("lastname",p.getStringExtra("lastname"));
             i.putExtra("email",p.getStringExtra("email"));
@@ -89,7 +91,7 @@ public class donatecloth extends AppCompatActivity implements View.OnClickListen
         }
         else if(item.getItemId()==R.id.md)
         {
-            Intent i=new Intent(this,UserProfile.class);
+            Intent i=new Intent(this, UserProfile.class);
             Intent p=getIntent();
             i.putExtra("phone",p.getStringExtra("phone"));
             startActivity(i);

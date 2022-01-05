@@ -1,10 +1,12 @@
-package com.example.DONATION_APP;
+package com.example.DONATION_APP.UserProfile;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.DONATION_APP.R;
 
 public class profile extends AppCompatActivity {
     private TextView a,b,c,d,e,p;
